@@ -1,0 +1,96 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar{
+    background-color: grey;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    box-shadow: 0px 2px 4px  rgb(80, 78, 78);
+}
+
+.nav-bar h4{
+    font-size: 40px;
+   color: aliceblue;
+   min-width: 250px;
+   max-height: 60px;
+  
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 10px 20px 10px 10rem;
+    /*min-width: 30rem;*/
+ 
+}
+
+.nav-bar ul li {
+    padding-left: 120px;
+    padding-right: 20px;
+}
+
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.2s;
+}
+
+.nav-bar ul li a:hover{
+    color: rgb(34, 34, 192);
+}
+
+
+.container{
+    margin-top: 5rem;
+    width :  40%;
+    background-color: rgb(255, 251, 251);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.container h2{
+    text-align: center;
+    color: rgb(43, 41, 41);
+
+}
+
+.btn-hero{ 
+    margin-left: 190px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border: solid black 1px;
+    color: aliceblue;
+    font-size: 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+
+}
+
+.btn-hero:hover{
+    background-color: rgb(235, 240, 240);
+    color: black;
+}
+
+
+
+
+
+
